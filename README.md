@@ -4,11 +4,12 @@
 
 ---
 
-## 🛠️ Состав конфигурации
-* **Window Manager:** [Hyprland](https://hyprland.org/)
-* **Status Bar:** [Waybar](https://github.com/Alexays/Waybar)
-* **Logout Menu:** [wlogout](https://github.com/ArgLover/wlogout)
-* **Color Palette:** Catppuccin
+## 📸 Preview
+
+<p align="center">
+  <img src="assets/screenshots/desktop.png" width="48%" />
+  <img src="assets/screenshots/terminal.png" width="48%" />
+</p>
 
 ---
 
