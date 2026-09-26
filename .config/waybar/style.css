@@ -1,0 +1,74 @@
+* {
+    border: none;
+    border-radius: 0;
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    min-height: 0;
+}
+
+window#waybar {
+    background-color: rgba(26, 27, 38, 0.6);
+    color: #c0caf5;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+#workspaces button {
+    padding: 0 8px;
+    background-color: transparent;
+    color: #a9b1d6;
+    border-radius: 8px;
+    margin: 3px 2px;
+}
+
+#workspaces button:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+#workspaces button.active {
+    background-color: #7aa2f7;
+    color: #15161e;
+    font-weight: bold;
+}
+
+#clock,
+#battery,
+#pulseaudio,
+#tray,
+#bluetooth {
+    padding: 2px 12px;
+    margin: 4px 3px;
+    background-color: rgba(36, 40, 59, 0.8);
+    border-radius: 8px;
+    color: #c0caf5;
+}
+
+#clock {
+    background-color: rgba(122, 162, 247, 0.2);
+    color: #7aa2f7;
+    font-weight: bold;
+}
+
+#battery.charging {
+    color: #9ece6a;
+}
+
+#battery.warning:not(.charging) {
+    background-color: #f7768e;
+    color: #15161e;
+}
+
+#custom-power {
+    color: #89b4fa;
+    background-color: #1e1e2e;
+    padding: 0px 12px;
+    margin-left: 6px;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+#custom-power:hover {
+    color: #11111b;
+    background-color: #89b4fa;
+}
+	
