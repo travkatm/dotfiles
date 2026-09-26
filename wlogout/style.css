@@ -1,0 +1,26 @@
+window {
+    background-color: rgba(17, 17, 27, 0.85);
+}
+
+grid {
+    margin: 300px 200px;
+}
+
+button {
+    border-radius: 16px;
+    border: 2px solid #89b4fa;
+    color: #cdd6f4;
+    background-color: #1e1e2e;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+    transition: all 0.2s ease-in-out;
+}
+
+button:focus, button:hover {
+    background-color: #89b4fa;
+    color: #11111b;
+    border-color: #b4befe;
+    box-shadow: 0 0 15px rgba(137, 180, 250, 0.6);
+}
