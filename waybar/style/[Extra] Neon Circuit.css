@@ -1,14 +1,17 @@
 * {
     border: none;
     border-radius: 0;
-    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", Roboto, Helvetica, Arial, sans-serif;
+    font-family: "JetBrainsMono Nerd Font", "Font Awesome 6 Free", Roboto, Helvetica, Arial;
     font-size: 13px;
     min-height: 0;
 }
 
 window#waybar {
-    background-color: rgba(26, 27, 38, 0.6);
+    background-color: rgba(26, 27, 38, 0.85);
     color: #c0caf5;
+    border: 2px solid #7aa2f7;
+    border-radius: 15px;
+    margin: 6px 10px;
     transition-property: background-color;
     transition-duration: .5s;
 }
@@ -34,14 +37,26 @@ window#waybar {
 #clock,
 #battery,
 #pulseaudio,
-#tray {
+#tray,
+#bluetooth,
+#disk,
+#language,
+#hyprland-language,
+#custom-monitors,
+#custom-wallpaper {
     padding: 2px 12px;
     margin: 4px 3px;
     background-color: rgba(36, 40, 59, 0.8);
-    border-radius: 8px;
+    border: 1px solid #7aa2f7;
+    border-radius: 12px;
     color: #c0caf5;
 }
 
+#hyprland-language {
+    background-color: rgba(122, 162, 247, 0.2);
+    color: #7aa2f7;
+    font-weight: bold;
+}
 #clock {
     background-color: rgba(122, 162, 247, 0.2);
     color: #7aa2f7;
@@ -56,16 +71,36 @@ window#waybar {
     background-color: #f7768e;
     color: #15161e;
 }
+
+#custom-monitors {
+    background-color: rgba(122, 162, 247, 0.2);
+    color: #7aa2f7;
+    font-weight: bold;
+}
+
+#custom-monitors:hover {
+    background-color: #7aa2f7;
+    color: #15161e;
+}
+
 #custom-power {
     color: #89b4fa;
     background-color: #1e1e2e;
     padding: 0px 12px;
     margin-left: 6px;
-    border-radius: 8px;
+    border: 1px solid #7aa2f7;
+    border-radius: 12px;
     font-size: 16px;
 }
 
 #custom-power:hover {
     color: #11111b;
     background-color: #89b4fa;
+}
+
+#language,
+#hyprland-language {
+    background-color: rgba(122, 162, 247, 0.2);
+    color: #7aa2f7;
+    font-weight: bold;
 }

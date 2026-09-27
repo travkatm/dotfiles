@@ -404,4 +404,9 @@
     "kitty-dropterm"
 		],
 },
+"custom/monitors": {
+        "format": "󰍹 Дисплеи",
+        "on-click": "~/.config/hypr/scripts/monitor-menu.sh",
+        "tooltip": false
+    }
 }
