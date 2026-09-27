@@ -37,9 +37,9 @@ cp -r ~/dotfiles/wlogout ~/.config/
 chmod +x ~/.config/hypr/scripts/*
 
 # 4. Перезагружаем Hyprland
-hyprctl reload```
+hyprctl reload
 
-```✨ Особенности
+✨ Особенности
 
     Capsule Aesthetic: Элементы Waybar и меню Wofi выполнены в стиле аккуратных закругленных капсул с синей рамкой (#7aa2f7).
 
