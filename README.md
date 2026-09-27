@@ -20,8 +20,12 @@
 ```bash
 sudo pacman -S hyprland waybar wofi wlogout git
 
+🚀 2. Установка конфигурации
+
+Склонируйте репозиторий и скопируйте настройки в директории конфигурации:
+
 # 1. Клонируем репозиторий
-git clone [https://github.com/travkatm/dotfiles.git](https://github.com/travkatm/dotfiles.git) ~/dotfiles
+git clone https://github.com/travkatm/dotfiles.git ~/dotfiles
 
 # 2. Копируем файлы конфигураций
 cp -r ~/dotfiles/hypr ~/.config/
