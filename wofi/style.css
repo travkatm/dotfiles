@@ -1,0 +1,41 @@
+/* Главное окно Wofi: закругленные углы и синяя обводка */
+window {
+    margin: 0px;
+    border: 2px solid #7aa2f7;
+    border-radius: 16px;
+    background-color: rgba(26, 27, 38, 0.95);
+    font-family: "JetBrainsMono Nerd Font", sans-serif;
+    font-size: 14px;
+}
+
+/* Поле ввода/поиска */
+#input {
+    margin: 10px;
+    border: 1px solid #7aa2f7;
+    border-radius: 12px;
+    color: #c0caf5;
+    background-color: #1a1b26;
+    padding: 8px 12px;
+}
+
+/* Контейнер списка элементов */
+#outer-box {
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Элементы списка в виде капсул/таблеток */
+#entry {
+    margin: 4px 8px;
+    padding: 8px 12px;
+    border-radius: 12px;
+    background-color: rgba(36, 40, 59, 0.8);
+    color: #c0caf5;
+}
+
+/* Выделенный элемент (при наведении или выборе) */
+#entry:selected {
+    background-color: #7aa2f7;
+    color: #15161e;
+    font-weight: bold;
+}
