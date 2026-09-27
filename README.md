@@ -37,7 +37,7 @@ cp -r ~/dotfiles/wlogout ~/.config/
 chmod +x ~/.config/hypr/scripts/*
 
 # 4. Перезагружаем Hyprland
-hyprctl reload
+hyprctl reload```
 
 ```✨ Особенности
 
