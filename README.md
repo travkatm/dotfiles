@@ -7,8 +7,11 @@
 ## 📸 Preview
 
 <p align="center">
-  <<img width="1920" height="1080" alt="home" src="https://github.com/user-attachments/assets/5af06d6b-5c51-45a5-8c98-41dc38fd31b5" />
-  <<img width="1920" height="1080" alt="term" src="https://github.com/user-attachments/assets/a7945118-db57-45f2-b7fd-922c4a4286ac" />
+  << <img width="1920" height="1080" alt="home" src="https://github.com/user-attachments/assets/e4198a16-122a-47ca-810f-ddd3ec65a028" />
+  << <img width="1920" height="1080" alt="term" src="https://github.com/user-attachments/assets/67598ed3-87af-49b0-b75c-0f49304dcee1" />
+  << <img width="1920" height="1080" alt="obou" src="https://github.com/user-attachments/assets/81d84db0-eb64-4f37-8cc3-72c71a73d31d" />
+
+  << />
 </p>
 
 ---
